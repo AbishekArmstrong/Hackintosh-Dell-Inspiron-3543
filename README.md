@@ -3,6 +3,17 @@
 ## Overview
 This repository contains the EFI folder and configuration files needed to run macOS Monterey on a Dell Inspiron 3543 laptop. Since there were no comprehensive guides available for this model, this project aims to help others by providing a fully working EFI folder.
 
+
+## Audio Issue and Possible Future Updates
+
+The current EFI configuration uses a Realtek ALC255 codec for audio, but there are multiple ALC layouts that might work better. I have found one layout that works well with headphones but not with system audio.
+
+Here are the ALC layouts you can try:
+
+    ALC255/ALC3234 Layouts: 3, 11, 12, 13, 15, 17, 18, 20, 21, 22, 23, 27, 28, 29, 30, 31, 37, 66, 69, 71, 80, 82, 86, 96, 99, 100, 255
+
+As I continue to experiment with these layouts, I will upload new versions of the EFI if I find the one that works best for both headphones and system audio. For now, you can try these layouts and see if one works better for your setup.
+
 ### Model Specifications:
 | Component       | Specification                             |
 | -------------- | ----------------------------------------- |
