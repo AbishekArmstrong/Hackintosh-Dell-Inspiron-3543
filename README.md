@@ -29,7 +29,7 @@ The original Broadcom 802.11n WiFi card was not supported on macOS v10 and above
 If you are new to Hackintosh, follow the [Dortania OpenCore Guide](https://dortania.github.io/OpenCore-Install-Guide/) for a complete understanding of the process. This EFI folder is based on the Dortania guide, so make sure to familiarize yourself with it before proceeding.
 
 ### Important Note
-For privacy reasons, I have removed the **MLB**, **SystemSerialNumber**, and **SystemUUID** from the `config.plist`. You will need to generate your own using the **GenSMBIOS** tool. Follow the Dortania guide on how to properly set these values.
+For privacy reasons, I have removed the **MLB**, **SystemSerialNumber**, and **SystemUUID** from the `config.plist`. You will need to generate your own using the [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) tool. Follow the Dortania guide on how to properly set these values.
 
 ## Installation Instructions
 1. Backup your data and create a bootable macOS installer.
@@ -43,5 +43,5 @@ For privacy reasons, I have removed the **MLB**, **SystemSerialNumber**, and **S
 - Disable the NVIDIA GPU in BIOS if you encounter issues.
 
 ## Credits
-Special thanks to the Hackintosh community especially r/Lilobast and the Dortania guide for resources and guidance.
+Special thanks to the Hackintosh community especially [r/Lilobast](https://www.reddit.com/user/Lilobast/) and the Dortania guide for resources and guidance.
 
